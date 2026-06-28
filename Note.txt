@@ -1,0 +1,9 @@
+đề mở
+cấu trúc 5 đ lý thuyết
+5 đ code
+Nhóm câu 1: Trả lời đúng trọng tâm, thị phần thì nêu rõ bao nhiêu phần trăm, tên viết đúng chính tả như windows phone thì nó có "s". Soạn ý cho phần thị trường lập trình android hiện giờ như nào, thử thách.
+Nhóm câu 2: Câu 7: ưu điểm nhược điểm, cấu trúc nền tảng thì người ta hỏi sâu luôn. Câu 8: android manifest là j, gồm thẻ j, ví dụ thẻ đó ra sao. Nếu dùng bluetooth, mở camera thì phải mở android manifest để có sự cho phép người dùng rồi mới kết nối được. Câu 9: Liệt kê tên, định nghĩa ngắn gọn ( activity... )
+Nhóm câu 3: Câu 10: Ví dụ đang chơi game activity đang ở trạng thái nào (ưu tiên số 1 là người dùng đang chơi game là focus, gọi đến thì pause, tắt cuộc gọi trạng thái chuyển về...). Câu 11, 12, 13: Hỏi cái đó là cái j
+
+Nhóm câu lý thuyết code: EditText: Sdt thì numberic, thuộc tính toàn ký tự viết hoa..., Intend: tường minh để chuyền từ màn hình A sang màn hình B, muốn sử dụng lớp này thì intend như nào, tôi muốn bấm nút này thì xử lý ra sao. Menu, Dialog: Phân biệt option mennu với context menu, SQL Lite: là j..., Multimedia: Viết code xử lý nghe được cái này, SetContentView với finViewById: Viết đúng chính xác cái hàm, ví dụ có 1 button thì sao ( setcontentview như nào...)
+Code: Hiện thị ảnh như nào, nghe nhạc, mở camera chụp hình, đọc ghi file...

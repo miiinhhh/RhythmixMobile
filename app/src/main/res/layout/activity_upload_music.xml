@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:text="Tải nhạc mới"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Xuất bản tác phẩm âm nhạc của bạn lên hệ thống"
+            android:textColor="#A7A7A7"
+            android:textSize="14sp"
+            android:layout_marginTop="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="1. THÔNG TIN CƠ BẢN"
+            android:textColor="#1DB954"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:letterSpacing="0.08"
+            android:layout_marginTop="28dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/etTitle"
+            android:hint="Tên bài hát *"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#8A8A8A"
+            android:background="@drawable/bg_input_dark"
+            android:padding="16dp"
+            android:layout_marginTop="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="54dp" />
+
+        <EditText
+            android:id="@+id/etArtistName"
+            android:hint="Nghệ sĩ"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#8A8A8A"
+            android:background="@drawable/bg_input_dark"
+            android:padding="16dp"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="54dp" />
+
+        <EditText
+            android:id="@+id/etDescription"
+            android:hint="Mô tả"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#8A8A8A"
+            android:background="@drawable/bg_input_dark"
+            android:gravity="top"
+            android:padding="16dp"
+            android:minLines="4"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="120dp" />
+
+        <EditText
+            android:id="@+id/etGenre"
+            android:hint="Thể loại"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#8A8A8A"
+            android:background="@drawable/bg_input_dark"
+            android:padding="16dp"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="54dp" />
+
+        <TextView
+            android:text="2. TỆP MEDIA"
+            android:textColor="#1DB954"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:letterSpacing="0.08"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnChooseAudio"
+            android:text="Chọn tệp âm thanh *"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#2A2A2A"
+            android:layout_marginTop="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="54dp" />
+
+        <TextView
+            android:id="@+id/tvAudioFileName"
+            android:text="Chưa chọn tệp"
+            android:textColor="#A7A7A7"
+            android:textSize="13sp"
+            android:layout_marginTop="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnChooseVideo"
+            android:text="Chọn video tuỳ chọn"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#2A2A2A"
+            android:layout_marginTop="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="54dp" />
+
+        <TextView
+            android:id="@+id/tvVideoFileName"
+            android:text="Chưa chọn tệp"
+            android:textColor="#A7A7A7"
+            android:textSize="13sp"
+            android:layout_marginTop="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnChooseCover"
+            android:text="Chọn ảnh bìa"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#2A2A2A"
+            android:layout_marginTop="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="54dp" />
+
+        <TextView
+            android:id="@+id/tvCoverFileName"
+            android:text="Chưa chọn tệp"
+            android:textColor="#A7A7A7"
+            android:textSize="13sp"
+            android:layout_marginTop="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="3. ALBUM"
+            android:textColor="#1DB954"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:letterSpacing="0.08"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/spAlbum"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/bg_input_dark" />
+
+        <Button
+            android:id="@+id/btnUpload"
+            android:text="Xuất bản bài hát"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:backgroundTint="#1DB954"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="32dp"
+            android:layout_width="match_parent"
+            android:layout_height="56dp" />
+
+    </LinearLayout>
+</ScrollView>
